@@ -35,3 +35,6 @@ https://lnkd.in/gAzBzr3W
 https://lnkd.in/g9GR9b9F
 8. Philo Agents: 
 https://lnkd.in/gnxRq9n9
+
+find /u01/app/oracle/playbooks -type f -not -name \*.sh | xargs chmod uo-w
+find /u01/app/oracle/playbooks -type f -name \*.sh | xargs chmod ug+x
